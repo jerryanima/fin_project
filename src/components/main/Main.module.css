@@ -1,5 +1,49 @@
 .main {
-	background: #0079BF;
-	padding: 20px;
+	background: #fff;
 	flex-grow: 1;
+	padding: 0px 60px;
+	max-width: 1440px;
+    margin: 0 auto;
+}
+
+.infoBlock {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 110px;
+}
+
+.title {
+	font-family: 'Ferry';
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 72px;
+	margin: 70px 0px 20px 0px;
+}
+
+.titleH2 {
+	font-family: 'Ferry';
+	font-weight: 900;
+	font-size: 45px;
+	line-height: 54px;
+	margin: 0px;
+}
+
+.info {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 70px;
+}
+
+.img {
+	width: 629px;
+	height: 593px;
+}
+
+.carousel {
+	margin-bottom: 110px;
+
+}
+.imgMan {
+	max-width: 1307px;
+	margin-top: 70px;
 }
