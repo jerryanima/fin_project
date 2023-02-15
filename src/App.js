@@ -4,15 +4,15 @@ import Main from './components/main/Main'
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {
-  return (
-    <BrowserRouter>
-		<div className='wrapper'>
-			<Header />
-			<Main />
-			<Footer />
-		</div>
-	</BrowserRouter>
-  );
+	return (
+		<BrowserRouter>
+			<div className='wrapper'>
+				<Header />
+				<Main />
+				<Footer />
+			</div>
+		</BrowserRouter>
+	);
 }
 
 export default App;

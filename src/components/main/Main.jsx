@@ -2,6 +2,7 @@
 import css from './Main.module.css'
 import MainImg1 from '../../assets/main/main-1.svg'
 import MainImg2 from '../../assets/main/main-2.svg'
+import TariffBlock from '../TariffBlock/TariffBlock'
 
 const Main = props => {
 	return (
@@ -23,6 +24,7 @@ const Main = props => {
 			</section>
 			<section className={css.tariff}>
 				<h2 className={css.titleH2}>наши тарифы</h2>
+				<TariffBlock/>
 			</section>
 		</main>
 	)
