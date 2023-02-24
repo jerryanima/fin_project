@@ -1,6 +1,8 @@
 .tariffBlocks {
     display: flex;
     justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 118px;
 }
 
 .block {
@@ -16,6 +18,7 @@
     align-items: center;
     padding: 30px 0px 0px 30px;
     margin-bottom: 43px;
+    position: relative;
 }
 
 .priceinfo {
@@ -33,6 +36,7 @@
 .title {
     margin: 10px 0px 34px 0px;
     font-size: 18px;
+
 }
 
 .image {
@@ -73,6 +77,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    min-height: 18px;
 }
 
 .ttile2 {
@@ -80,4 +85,50 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+}
+
+.iconCheckmark {
+    margin-right: 8px;
+}
+
+.list {
+	margin: 0;
+    padding-left: 30px; 
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.blockOption {
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
+.blockButton {
+    margin: 0 30px 24px 30px;
+}
+
+.blockButton button {
+    width: 100%;
+    font-size: 20px;
+    padding: 18px 40px;
+}
+
+.buttonActive {
+    background-color: #D2D2D2;
+    border: 0px;
+	color: #000;
+	padding: 18px 40px;
+	font-weight: 500;
+}
+
+.active {
+    padding: 4px 13px;
+    position: absolute;
+    bottom: -42px;
+    right: 10px;
+    background: #3BA5E0;
+    color: #fff;
+    border-radius: 10px;
 }

@@ -3,6 +3,7 @@ import css from './Main.module.css'
 import MainImg1 from '../../assets/main/main-1.svg'
 import MainImg2 from '../../assets/main/main-2.svg'
 import TariffBlock from '../TariffBlock/TariffBlock'
+import Slider from '../slider/Slider'
 
 const Main = props => {
 	return (
@@ -19,7 +20,7 @@ const Main = props => {
 			</section>
 			<section className={css.carousel}>
 				<h2 className={css.titleH2}>Почему именно мы</h2>
-				
+				<Slider/>
 				<img className={css.imgMan} src={MainImg2} alt='человек с галочкой'></img>
 			</section>
 			<section className={css.tariff}>
